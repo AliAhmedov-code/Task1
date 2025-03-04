@@ -62,11 +62,16 @@ body {
     
   }
   
-  .star {
-    margin: 0 2px;
-    
-  }
 
+
+  .star.filled {
+    color: rgba(113,54,138,255); 
+    
+}
+
+.star.empty {
+    color: rgba(113,54,138,255); 
+}
 .textarea {
     height: 40%;
     display: flex;
